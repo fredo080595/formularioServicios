@@ -482,7 +482,7 @@
                 </div>
 
                 <div class="form-row card p-3">
-                    <button class="btn btn-primary" id="enviarDatos">Enviar</button>
+                    <button class="btn btn-primary"  id="enviarDatos">Enviar</button>
                 </div>
             </form>
 
@@ -498,7 +498,7 @@
 <script>
     $(document).ready(function () {
 
-        $('#enviarDatos').on('click', function (e) {
+        $('#enviarDatos').on('submit', function (e) {
             e.preventDefault();
 
             let datos = $('#formularioServicio').serializeArray();
