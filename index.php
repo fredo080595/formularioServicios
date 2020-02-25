@@ -65,31 +65,31 @@
                     <div class="form-group col-md-12">
                         <p>Usuario <span class="text-danger">*</span></p>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="usuario" id="usuario1" value="option1" checked>
+                            <input class="form-check-input" type="radio" name="usuario" id="usuario1" value="Administrativo" checked>
                             <label class="form-check-label" for="usuario1">
                                 Administrativo
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="usuario" id="usuario2" value="option2">
+                            <input class="form-check-input" type="radio" name="usuario" id="usuario2" value="Académico">
                             <label class="form-check-label" for="usuario2">
                                 Académico
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="usuario" id="usuario3" value="option3" >
+                            <input class="form-check-input" type="radio" name="usuario" id="usuario3" value="Alumno" >
                             <label class="form-check-label" for="usuario3">
                                 Alumno
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="usuario" id="usuario4" value="option3" >
+                            <input class="form-check-input" type="radio" name="usuario" id="usuario4" value="Otro" >
                             <label class="form-check-label" for="usuario4">
                                 Otro
                             </label>
                             <div class="form-group col-md-12">
                                 <label for="usuario">Especifica</label>
-                                <input type="text" class="form-control" name="usuario" id="usuario">
+                                <input type="text" class="form-control" name="usuarioOtro" id="usuario">
                             </div>
                         </div>
 
@@ -127,7 +127,7 @@
                             </label>
                             <div class="form-group col-md-12">
                                 <label for="reporte">Especifica</label>
-                                <input type="text" class="form-control" name="reporte" id="reporte">
+                                <input type="text" class="form-control" name="reporteOtro" id="reporte">
                             </div>
                         </div>
 
@@ -509,7 +509,11 @@
                 dataType: 'json',
                 data: datos,
                 success: function (r) {
-                    console.log(r)
+                    if(r){
+                        alert('Se envió la informacion');
+                    }else{
+                        alert('Error al enviar la información');
+                    }
                 }
             })
 
