@@ -28,31 +28,31 @@
                     <div class="form-group col-md-12">
                         <p>SEDE <span class="text-danger">*</span></p>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios1" value="GAM" checked>
+                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios1" value="1" checked>
                             <label class="form-check-label" for="exampleRadios1">
                                 GAM
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios2" value="COYOACÁN">
+                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios2" value="2">
                             <label class="form-check-label" for="exampleRadios2">
                                 COYOACÁN
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios3" value="AZCAPOTZALCO" >
+                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios3" value="3" >
                             <label class="form-check-label" for="exampleRadios3">
                                 AZCAPOTZALCO
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios4" value="CAMPUS VIRTUAL">
+                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios4" value="4">
                             <label class="form-check-label" for="exampleRadios4">
                                 CAMPUS VIRTUAL
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios5" value="JUSTO SIERRA" >
+                            <input class="form-check-input" type="radio" name="sede" id="exampleRadios5" value="5" >
                             <label class="form-check-label" for="exampleRadios5">
                                 JUSTO SIERRA
                             </label>
@@ -139,6 +139,7 @@
                 </div>
 
                 <div class="form-row card p-3">
+                    <p>PC</p>
                     <div class="form-group col-md-12">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" name="hardware" value="HARDWARE" id="HARDWARE">
@@ -229,23 +230,23 @@
                     <div class="form-group col-md-12">
                         <p>APARATO TELEFÓNICO</p>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico" id="apartadoTelefonico1" value="1">
+                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico1" id="apartadoTelefonico1" value="1">
                             <label class="form-check-label" for="apartadoTelefonico1">1</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico" id="apartadoTelefonico2" value="2">
+                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico2" id="apartadoTelefonico2" value="2">
                             <label class="form-check-label" for="apartadoTelefonico2">2</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico" id="apartadoTelefonico3" value="3">
+                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico3" id="apartadoTelefonico3" value="3">
                             <label class="form-check-label" for="apartadoTelefonico3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico" id="apartadoTelefonico4" value="4">
+                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico4" id="apartadoTelefonico4" value="4">
                             <label class="form-check-label" for="apartadoTelefonico4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico" id="apartadoTelefonico5" value="5">
+                            <input class="form-check-input" type="checkbox" name="apartadoTelefonico5" id="apartadoTelefonico5" value="5">
                             <label class="form-check-label" for="apartadoTelefonico5">5</label>
                         </div>
                     </div>
@@ -265,11 +266,11 @@
                             <label class="form-check-label" for="roseta3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="roseta3" name="roseta4" value="4">
+                            <input class="form-check-input" type="checkbox" id="roseta4" name="roseta4" value="4">
                             <label class="form-check-label" for="roseta4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="roseta3" name="roseta5" value="5">
+                            <input class="form-check-input" type="checkbox" id="roseta5" name="roseta5" value="5">
                             <label class="form-check-label" for="roseta5">5</label>
                         </div>
                     </div>
@@ -313,11 +314,11 @@
                             <label class="form-check-label" for="jack3">3</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="jack3" name="jack4" value="4">
+                            <input class="form-check-input" type="checkbox" id="jack4" name="jack4" value="4">
                             <label class="form-check-label" for="jack4">4</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="jack3" name="jack5" value="5">
+                            <input class="form-check-input" type="checkbox" id="jack5" name="jack5" value="5">
                             <label class="form-check-label" for="jack5">5</label>
                         </div>
                     </div>
@@ -497,7 +498,7 @@
 <script>
     $(document).ready(function () {
 
-        $('#enviarDatos').on('submit', function (e) {
+        $('#enviarDatos').on('click', function (e) {
             e.preventDefault();
 
             let datos = $('#formularioServicio').serializeArray();
@@ -508,7 +509,7 @@
                 dataType: 'json',
                 data: datos,
                 success: function (r) {
-
+                    console.log(r)
                 }
             })
 
