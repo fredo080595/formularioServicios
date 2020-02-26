@@ -511,9 +511,13 @@
                 success: function (r) {
                     if(r){
                         alert('Se envió la informacion');
+                        location.reload();
                     }else{
                         alert('Error al enviar la información');
                     }
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert("some error"+XMLHttpRequest+textStatus+errorThrown);
                 }
             })
 
