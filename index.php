@@ -498,7 +498,7 @@
 <script>
     $(document).ready(function () {
 
-        $('#enviarDatos').on('submit', function (e) {
+        $('#enviarDatos').on('click', function (e) {
             e.preventDefault();
 
             let datos = $('#formularioServicio').serializeArray();
